@@ -1,0 +1,126 @@
+#home {
+    background: url(./Photo/futuristic-technology-abstract-background-beautiful-footage-087637197_prevstill.jpeg);
+    background-color: rgb(78, 72, 72);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 0;
+    opacity: 0.95;
+
+}
+.start {
+    font-family: Raleway, "Times New Roman", Times, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: none;
+    margin: 15px 0;
+}
+.intro h1 {
+    font-weight: 800;
+    
+}
+.intro {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    
+    transform: translate(0%, -50%);
+    padding: 0 15px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
+    font: 700 40px/1.2 Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 5px 0 5px;
+    color: #222;
+}
+.calltoaction h1, .calltoaction h2, .calltoaction h3, .calltoaction h4, .calltoaction h5, .calltoaction h6, .pfblock-image, .pfblock-image h1, .pfblock-image h2, .pfblock-image h3, .pfblock-image h4, .pfblock-image h5, .pfblock-image h6 {
+    color: #fff;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+div {
+    display: block;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+body {
+    font: 300 14px/1.8 'Raleway', sans-serif;
+    color: #666;
+    
+}
+
+.navbar{
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+}
+.nav-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+}
+#logo{
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.about-me-text {
+    margin-right: var(--spacing-3);
+    text-align: center;
+}
+.pfblock-line {
+    background: rgba(135, 135, 135, 0.5);
+    width: 100px;
+    height: 1px;
+    margin: 30px auto;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
