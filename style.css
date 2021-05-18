@@ -30,6 +30,7 @@
     transform: translate(0%, -50%);
     padding: 0 15px;
 }
+
 h2 {
     display: block;
     font-size: 1.5em;
@@ -38,27 +39,34 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    text-align: center;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1, h2{
     font: 700 40px/1.2 Raleway, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
     margin: 5px 0 5px;
     color: #222;
 }
+
+h3,h4{
+    font: Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 5px 0 5px;
+    color: #222;
+}
+
 .calltoaction h1, .calltoaction h2, .calltoaction h3, .calltoaction h4, .calltoaction h5, .calltoaction h6, .pfblock-image, .pfblock-image h1, .pfblock-image h2, .pfblock-image h3, .pfblock-image h4, .pfblock-image h5, .pfblock-image h6 {
     color: #fff;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-    display: block;
-}
-div {
-    display: block;
-}
+
 li{
     display: list-item;
     text-align: -webkit-match-parent;
 }
+
 ul {
     display: block;
     list-style-type: disc;
@@ -68,11 +76,13 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+
 a {
     color: var(--font-color);
     text-decoration: none;
     font-weight: 600;
 }
+
 body {
     font: 300 14px/1.8 'Raleway', sans-serif;
     color: #666;
@@ -87,6 +97,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 .nav-items {
     display: flex;
     list-style-type: none;
@@ -99,6 +110,7 @@ body {
     letter-spacing: 2px;
     padding: 10px 15px;
 }
+
 #logo{
     float: left;
     height: 50px;
@@ -106,16 +118,19 @@ body {
     font-size: 18px;
     line-height: 20px;
 }
+
 .about-me-text {
     margin-right: var(--spacing-3);
     text-align: center;
 }
+
 .pfblock-line {
     background: rgba(135, 135, 135, 0.5);
     width: 100px;
     height: 1px;
     margin: 30px auto;
 }
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -124,3 +139,114 @@ p {
     margin-inline-end: 0px;
     text-align: center;
 }
+
+.portrait {
+    width: 400px; 
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+
+summary:first-of-type {
+    display: list-item;
+    counter-increment: list-item 0;
+    list-style: inside disclosure-closed;
+}
+
+summary {
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+
+details {
+    cursor: pointer;
+}
+
+.project-123{
+    float:left;
+    width: 33.333333%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto ;  
+    margin-bottom: 80px;
+    
+}
+
+.project-123 img{
+    width: 33.3333%;
+    opacity: 0.9;     
+}
+
+.project-123 p{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.skills {
+    text-align: center;
+    vertical-align:middle;
+    margin-left: auto;
+    margin-right: auto;  
+    
+}
+
+.skill-123{
+    float:left;
+    width: 33.333333%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto ;  
+    
+}
+
+.about-skills{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.skill-123 p{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.skill-123 img{
+    width: 100px;
+    height: 100px;
+}
+b{
+    font: Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.contacts-123{
+    float:left;
+    width: 33.333333%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto ;  
+    margin-bottom: 80px;
+}
+.heart {
+    color: red;
+}
+footer{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto ; 
+    margin-top: 300px;
+}
+ div{
+     margin-bottom: 200 px;
+ }
+ 
+ #move{
+     width: 50px;
+     height: 50px;
+     background-color: orchid;
+     border-radius: 10px;
+ }
